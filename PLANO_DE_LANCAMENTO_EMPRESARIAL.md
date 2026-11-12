@@ -12,7 +12,7 @@
 | **Sede / Foro Eleito** | Brasília - Distrito Federal (DF), Brasil |
 | **Formato Societário** | Sociedade Empresária Limitada (LTDA) |
 | **Regime Tributário** | Simples Nacional (Anexo III - 6,00% via Fator R >= 28,1%) |
-| **Quadro Societário** | Thiago Rocha Duarte (25%), Diego Alves (25%), Márcio (25%), Yuri (25%) |
+| **Quadro Societário** | Thiago Rocha Duarte (25%), Diego Alves (25%), Márcio Alves (25%), Yuri Alves (25%) |
 | **Repositório Central** | `git@github.com:empresa-empreender/kit-software-house-brasil.git` |
 
 > [!IMPORTANT]
@@ -80,15 +80,36 @@ flowchart LR
 
 ## 2. Quadro Societário e Matriz de Governança (RACI Executiva)
 
-### 2.1. Composição Societária e Distribuição de Quotas
-A sociedade é composta de forma paritária no lançamento, refletindo a complementariedade indispensável dos 4 fundadores:
+### 2.1. Estrutura Horizontal de Engenharia e Distribuição de Quotas
+A sociedade adota um **modelo estritamente horizontal de engenharia**: todos os 4 Sócios Fundadores atuam diretamente no desenvolvimento de software e arquitetura no mesmo nível hierárquico corporativo, com igualdade de voz e peso de voto na condução da empresa:
 
-| Sócio Fundador | Cargo Executivo | Quota Inicial | Dedicação | Foco Estratégico Principal |
-| :--- | :--- | :---: | :---: | :--- |
-| **Thiago Rocha Duarte** | Sócio Administrador (CEO / BizDev) | 25,00% | Integral | Representação Legal, Finanças, Comercial, Jurídico e Alianças |
-| **Diego Alves** | CTO & Arquiteto Principal / IA | 25,00% | Integral | Arquitetura de Software, Modelos de IA, Casting Vote Técnico |
-| **Márcio** | Tech Lead & Core Engineer | 25,00% | Integral | Engenharia Backend/Frontend, Qualidade de Código, CI/CD, Review |
-| **Yuri** | Solutions Engineer & Tech Ops | 25,00% | Integral | Onboarding Técnico, Integrações de APIs, Operações de SLA N2/N3 |
+| Sócio Fundador | Atuação Técnica & Estratégica (Mesmo Nível Hierárquico) | Quota Inicial | Dedicação | Perfil Profissional | Foco Operacional |
+| :--- | :--- | :---: | :---: | :---: | :--- |
+| **Thiago Rocha Duarte** | Sócio Engenheiro de Software (Operações & Gestão Administrativa) | 25,00% | Integral | [LinkedIn](https://www.linkedin.com/in/thiago-duarte-a6597721/) | Representação Legal, Finanças, Comercial, Jurídico e Alianças |
+| **Diego Alves** | Sócio Engenheiro de Software & Arquiteto Principal *(Casting Vote)* | 25,00% | Integral | [LinkedIn](https://www.linkedin.com/in/by-diegoalves/) | Arquitetura de Software, Modelos de IA, Voto de Minerva Técnico |
+| **Márcio Alves** | Sócio Engenheiro de Software & Tech Lead | 25,00% | Integral | [LinkedIn](https://www.linkedin.com/in/m%C3%A1rcio-andrade-463590125/) | Engenharia Backend/Frontend, Qualidade de Código, CI/CD, Review |
+| **Yuri Alves** | Sócio Engenheiro de Software & Solutions Ops | 25,00% | Integral | [LinkedIn](https://www.linkedin.com/in/yurileader/) | Onboarding Técnico, Integrações de APIs, Operações de SLA N2/N3 |
+
+```mermaid
+flowchart TD
+    subgraph CoreTeam ["Quadro Societário Horizontal (25% cada - Mesmo Nível Hierárquico)"]
+        T["Thiago Rocha Duarte\n(Engenheiro de Software & Sócio Administrador)\n• Representação Legal & FinOps"]
+        D["Diego Alves\n(Engenheiro de Software & Arquiteto Principal)\n• Casting Vote / Voto de Minerva"]
+        M["Márcio Alves\n(Engenheiro de Software & Tech Lead)\n• Qualidade & CI/CD"]
+        Y["Yuri Alves\n(Engenheiro de Software & Solutions Ops)\n• Onboarding & SLA"]
+    end
+
+    subgraph Deliberacao ["Mecanismo de Deliberação e Prevenção de Deadlock"]
+        DEC["Pauta Ordinária do Dia a Dia (< R$ 50k)"] --> VOT{"Votação dos 4 Sócios\n(Maioria Simples)"}
+        VOT -->|"Maioria (3 a 1 ou 4 a 0)"| EXEC["Execução Imediata"]
+        VOT -->|"Empate 2 a 2 (Deadlock)"| MINERVA["Voto de Minerva de Diego Alves\n(Desempate Vinculante)"]
+        MINERVA --> EXEC
+        
+        DEC_ESP["Matéria de Alto Impacto\n(Novos Sócios, M&A, Empréstimo > R$ 30k)"] --> QUALIF{"Quórum Qualificado\n(Mínimo 75% = 3 Sócios)"}
+        QUALIF -->|"Aprovado (>= 3 votos)"| EXEC
+        QUALIF -->|"Reprovado (< 3 votos)"| REJ["Rejeição da Matéria"]
+    end
+```
 
 ### 2.2. Matriz de Responsabilidades Executivas (RACI)
 Para eliminar atritos operacionais e conferir clareza absoluta à rotina diária:
@@ -257,6 +278,33 @@ Para garantir a velocidade e precisão da boutique:
   * Otimização de consultas SQL lentas (*EXPLAIN ANALYZE*);
   * Criação automática de testes unitários de regressão para sistemas legados sem cobertura.
 
+### 4.7. Orquestração Multi-Agente com OpenBot
+Para ampliar a capacidade de entrega dos 4 sócios fundadores, a empresa opera integrada à plataforma **OpenBot** ([operacoes/openbot_integracao/README.md](operacoes/openbot_integracao/README.md)), disponibilizando 6 robôs especialistas com divisão de responsabilidades:
+
+```mermaid
+flowchart TD
+    USR["Comando / Demanda Operacional\n(Sócios Fundadores)"] --> TORRE["Pai de Todos / Torre OpenBot"]
+    
+    subgraph Robos ["Squad de Robôs Especialistas (N3/N4 Autônomos)"]
+        TORRE -->|"[COMERCIAL]"| AG1["Operativo-Comercial\n(SDR & Propostas)"]
+        TORRE -->|"[JURIDICO]"| AG2["Operativo-Juridico\n(Minutas & NDAs)"]
+        TORRE -->|"[SLA]"| AG3["Operativo-SLA\n(Triagem P1-P4)"]
+        TORRE -->|"[FINANCEIRO]"| AG4["Operativo-FinOps\n(Fator R & Cascata)"]
+        TORRE -->|"[MARKETING]"| AG5["Operativo-Marketing\n(LinkedIn B2B)"]
+        TORRE -->|"[RH]"| AG6["Operativo-TechScreen\n(Avaliação Devs)"]
+    end
+
+    AG1 --> QA["Especialista-QA\n(Auditoria de Fatos e Números)"]
+    AG2 --> QA
+    AG3 --> QA
+    AG4 --> QA
+    AG5 --> QA
+    AG6 --> QA
+    
+    QA --> CET["O Cético\n(Stress Test de Riscos e Premissas)"]
+    CET --> N1["Canal Entregas / Alçada N1\n(Aprovação Final Exclusiva dos Sócios)"]
+```
+
 ---
 
 ## 5. Fase 3: Políticas Financeiras, Fundo de Reserva e Capital Seed (D-15 a D-0)
@@ -290,20 +338,38 @@ Estimativa de despesas fixas recorrentes para manter a infraestrutura nos primei
 > [!TIP]
 > **Autossuficiência Imediata:** Com um OPEX fixo rigorosamente controlado em ~R$ 1.400/mês, o Capital Seed de R$ 10.000,00 confere mais de **7 meses de sobrevivência operacional bruta (*Runway*)** mesmo com receita zero. A conquista de um único cliente no Plano Essencial (R$ 3.800/mês) ou Profissional (R$ 5.500/mês) elimina qualquer risco de caixa desde o primeiro mês.
 
-### 5.3. Cascata Financeira, Fundo de Reserva e Dividendos Isentos
-A alocação de qualquer receita auferida pela sociedade seguirá obrigatoriamente a seguinte árvore decisória:
+### 5.3. A Estratégia Financeira em Duas Fases & Cascata de Caixa
+
+Conforme ratificado na Cláusula 6.2 do [Acordo de Sócios](operacoes/01_juridico/ACORDO_DE_SOCIOS.md) e no [Planejamento Tributário e Financeiro](operacoes/05_administracao/PLANEJAMENTO_TRIBUTARIO_E_FINANCEIRO.md), a política de remuneração adota uma transição estruturada em dois momentos:
 
 ```mermaid
 flowchart TD
-    REC["RECEITA BRUTA MENSAL APURADA (R$)"] --> DED["1. Deduções Legais e Fixas\n• DAS Simples Nacional (6%)\n• OPEX da Empresa (~R$ 1.400)"]
-    DED --> FAT["2. Folha de Pró-Labore dos Sócios\n(Calibrada em 28,1% do Faturamento - Fator R)\n• Garante INSS e alíquota de 6% no Anexo III"]
-    FAT --> LIQ["3. LUCRO LÍQUIDO CONTÁBIL APURADO"]
-    LIQ --> DEC{"Fundo de Reserva\nacumulou 3 meses\nde OPEX (~R$ 4.500)?"}
-    DEC -->|"NÃO"| RES["Compulsoriamente reter 20%\nno Caixa da Empresa"]
-    RES --> DIV1["80% distribuídos aos Sócios\ncomo Dividendos Isentos de IR\n(via balancete contábil)"]
-    DEC -->|"SIM"| DIV2["100% do Lucro Líquido\ndistribuído aos Sócios\ncomo Dividendos Isentos de IR"]
+    subgraph Fase1 ["Fase 1: Zero Pró-Labore (Bootstrapping Inicial - Meses 1 a 2)"]
+        F1_A["Receita Bruta Inicial"] --> F1_B["Deduções Fixas: DAS Simples + OPEX (~R$ 1.400)"]
+        F1_B --> F1_C["Zero Pró-Labore aos Fundadores\n(100% de Reinvestimento no Caixa)"]
+        F1_C --> F1_D["Formação Acelerada do Fundo de Reserva\n(Colchão de 3 meses de OPEX)"]
+        F1_D --> F1_E["Distribuição Pontual de Dividendos Isentos\n(Apenas após Balancete Trimestral Aprovado)"]
+    end
+
+    subgraph Gatilho ["Gatilho de Transição"]
+        GAT["Faturamento Recorrente Atinge\nR$ 25.000 a R$ 30.000 / mês"]
+    end
+
+    subgraph Fase2 ["Fase 2: Ativação do Pró-Labore & Fator R (Tração - Meses 3 em diante)"]
+        F2_A["Receita Bruta Recorrente (MRR)"] --> F2_B["Deduções Fixas: DAS Simples (6%) + OPEX"]
+        F2_B --> F2_C["Ativação do Pró-Labore dos 4 Sócios\n(Calibrado em 28,1% a 28,5% do RBT12)"]
+        F2_C --> F2_D["Enquadramento Líquido no Anexo III da LC 123/06\n(Economia tributária de 15,5% para 6,0%)"]
+        F2_D --> F2_E{"Fundo de Reserva\n>= 3 meses OPEX?"}
+        F2_E -->|"NÃO"| F2_F["Reter 20% do Lucro Líquido no Caixa"]
+        F2_F --> F2_G["80% distribuídos como Dividendos Isentos"]
+        F2_E -->|"SIM"| F2_H["100% do Lucro Líquido distribuído\ncomo Dividendos Isentos aos Sócios"]
+    end
+
+    Fase1 --> Gatilho --> Fase2
 ```
 
+* **Fase 1 – Zero Pró-Labore (Bootstrapping Inicial):** Nos primeiros meses de vida da empresa, os 4 Sócios Fundadores não farão retirada mensal de Pró-Labore. Toda a receita líquida gerada será blindada no caixa PJ para cobrir os custos operacionais (contador, licenças de IA e servidores) e acelerar a formação da reserva de segurança.
+* **Fase 2 – Ativação do Fator R (Tração Comercial):** A partir do momento em que a carteira recorrente atingir o patamar de estabilidade (R$ 25.000 a R$ 30.000/mês), a assessoria contábil emitirá os Pró-Labores fixados em **28,1% da Receita Bruta Acumulada (RBT12)**. Isso garante o direito incontestável ao enquadramento das atividades de software no **Anexo III (alíquota inicial de 6,00%)**, gerando economia líquida de mais de R$ 27.700,00 anuais em relação ao Anexo V.
 * **Regra de Retenção do Colchão de Segurança:** Todo mês, 20% do lucro líquido contábil apurado será compulsoriamente retido na conta PJ da empresa até que se atinja a meta mínima de **3 (três) meses de OPEX fixo (aproximadamente R$ 4.500,00 a R$ 6.000,00)**.
 * **Distribuição de Dividendos Isentos:** A distribuição aos 4 fundadores será formalizada em balancetes contábeis trimestrais com base no Art. 10 da Lei nº 9.249/1995, garantindo isenção total de IRPF sobre os lucros distribuídos.
 
@@ -334,31 +400,23 @@ Nossa estratégia de vendas evita a fricção de contratos longos logo na primei
 ### 6.2. Ativação do Funil Outbound em 5 Verticais Concomitantes
 Utilizando integralmente o playbook validado em [SCRIPTS_PROSPECCAO_OUTBOUND.md](operacoes/02_comercial_marketing/SCRIPTS_PROSPECCAO_OUTBOUND.md):
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                          FUNIL DE PROSPECÇÃO OUTBOUND (30 DIAS)                        │
-├────────────────────────┬─────────────────────────────┬─────────────────────────────────┤
-│ CANAL ESTRATÉGICO      │ PÚBLICO-ALVO / DECISOR      │ ABORDAGEM / SCRIPT UTILIZADO    │
-├────────────────────────┼─────────────────────────────┼─────────────────────────────────┤
-│ 1. LinkedIn Outbound   │ CTOs, Heads de TI e CEOs    │ "Técnica da Vaga Aberta":       │
-│    (Dev-to-Founder)    │ com vagas abertas > 30 dias │ Substituição imediata do vazio  │
-│                        │ no Brasil                   │ de time por squad sênior PJ     │
-├────────────────────────┼─────────────────────────────┼─────────────────────────────────┤
-│ 2. WhatsApp Regional   │ Gerentes operacionais de    │ Diagnóstico gratuito de 2 horas │
-│    (Distrito Federal)  │ distribuidoras e indústrias │ em lentidão de banco e travamento│
-│                        │ no SIA, Taguatinga e Ceil.  │ de emissão de pedidos           │
-├────────────────────────┼─────────────────────────────┼─────────────────────────────────┤
-│ 3. Associações e       │ Diretores Administrativos   │ Blindagem de segurança,         │
-│    Conselhos de Classe │ e TI de entidades sediadas  │ conformidade com a LGPD e       │
-│    (Plano Piloto - DF) │ no Plano Piloto             │ modernização de portais legados │
-├────────────────────────┼─────────────────────────────┼─────────────────────────────────┤
-│ 4. Agências Digitais   │ Donos e Diretores de        │ Parceria White-Label: engenharia│
-│    e de Tráfego        │ agências de marketing e     │ de software sob demanda com     │
-│                        │ automação sem time técnico  │ comissão recorrente de 10-15%   │
-├────────────────────────┼─────────────────────────────┼─────────────────────────────────┤
-│ 5. Freelance B2B       │ Projetos de emergência no   │ Resgate em 48h de códigos com   │
-│    (Workana / 99Fr.)   │ Workana e 99Freelas         │ tripla supervisão e nota fiscal │
-└────────────────────────┴─────────────────────────────┴─────────────────────────────────┘
+```mermaid
+flowchart TD
+    subgraph Canais ["5 Verticais Concomitantes de Prospecção Outbound"]
+        C1["1. LinkedIn Outbound (Dev-to-Founder)\n• CTOs e Heads com vagas abertas > 30 dias\n• Oferta: Substituição por Squad Sênior PJ"]
+        C2["2. WhatsApp Regional DF (SIA / Taguatinga / Ceilândia)\n• Gerentes de Distribuidoras e Indústrias\n• Oferta: Diagnóstico de travamentos e banco SQL"]
+        C3["3. Associações e Conselhos de Classe (Plano Piloto DF)\n• Diretores Administrativos e TI de entidades\n• Oferta: Blindagem LGPD e sustentação de portais"]
+        C4["4. Agências Digitais e de Tráfego\n• Donos de agências sem time técnico interno\n• Oferta: Parceria White-Label (comissão 10-15%)"]
+        C5["5. Freelance B2B de Resgate (Workana / 99Freelas)\n• Clientes corporativos com sistemas abandonados\n• Oferta: Resgate emergencial em até 48h"]
+    end
+
+    subgraph Funil ["Metas de Conversão dos Primeiros 30 Dias"]
+        F_TOPO["100 Decisores Abordados\n(5 contatos qualificados / dia útil)"] --> F_MEIO["15 Reuniões de Alinhamento Agendadas\n(15% taxa de resposta)"]
+        F_MEIO --> F_PROP["5 Propostas Comerciais Emitidas\n(Discovery R$ 3.5k ou Retainer R$ 5.5k)"]
+        F_PROP --> F_FECH["1 a 2 Contratos Fechados no D+30\n(R$ 5.500 a R$ 11.000 MRR ➔ Break-even)"]
+    end
+
+    Canais --> F_TOPO
 ```
 
 ### 6.3. Metas de Tração e Conversão dos Primeiros 30 Dias (D-Day a D+30)
