@@ -11,7 +11,7 @@ operacoes/
 ├── 01_juridico/
 │   ├── CONTRATO_SUSTENTACAO_E_SLA.md   # Minuta jurídica com Damage Cap e SLA blindado
 │   ├── ACORDO_CONFIDENCIALIDADE_NDA.md # Acordo de sigilo e proteção de código/dados
-│   └── ACORDO_DE_SOCIOS.md             # Acordo dos 4 sócios (Vesting, Voto de Minerva, Deadlock)
+│   └── ACORDO_DE_SOCIOS.md             # Acordo dos 4 sócios (Vesting, Voto de Minerva do Diego, Deadlock)
 ├── 02_comercial_marketing/
 │   ├── PROPOSTA_COMERCIAL_EXECUTIVA.md # Proposta oficial com pacotes de R$ 3,8k a R$ 8,5k
 │   └── SCRIPTS_PROSPECCAO_OUTBOUND.md  # Scripts de WhatsApp, LinkedIn e abordagem de agências

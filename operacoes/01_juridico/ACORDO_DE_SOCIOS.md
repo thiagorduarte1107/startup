@@ -4,7 +4,7 @@ Pelo presente instrumento particular de **Acordo de Quotistas**, vinculado ao Co
 
 **OS SÓCIOS FUNDADORES:**
 1. **THIAGO ROCHA DUARTE**, brasileiro, desenvolvedor e gestor de negócios, residente e domiciliado no Distrito Federal;
-2. **DIEGO [SOBRENOME]**, brasileiro, arquiteto de software e engenheiro de IA, residente e domiciliado no Distrito Federal;
+2. **DIEGO ALVES**, brasileiro, arquiteto de software e engenheiro de IA, residente e domiciliado no Distrito Federal;
 3. **MÁRCIO [SOBRENOME]**, brasileiro, engenheiro de software e tech lead, residente e domiciliado no Distrito Federal;
 4. **YURI [SOBRENOME]**, brasileiro, engenheiro de software e especialista de tecnologia, residente e domiciliado no Distrito Federal;
 
@@ -20,9 +20,9 @@ Todos em conjunto doravante denominados **SÓCIOS** ou **FUNDADORES**, resolvem 
 
 ### CLÁUSULA SEGUNDA – DA GOVERNANÇA, ADMINISTRAÇÃO E VOTO DE MINERVA
 2.1. **Sócio Administrador:** A administração ordinária da Sociedade e a representação perante bancos, cartórios, clientes e órgãos públicos caberá ao sócio **THIAGO ROCHA DUARTE**, denominado Sócio Administrador.  
-2.2. **Deliberações Ordinárias e Voto de Desempate (Casting Vote):**
+2.2. **Deliberações Ordinárias e Voto de Desempate (Casting Vote do Diego):**
 * As decisões cotidianas de contratação, propostas comerciais, compras operacionais e rotinas técnicas até o limite de R$ 50.000,00 serão tomadas por maioria simples dos votos.
-* **Prevenção de Deadlock (Empate 2 a 2):** Em caso de empate absoluto de votos (2 a 2) em matérias operacionais cotidianas, o **Sócio Administrador terá expressamente o Voto de Minerva (Voto de Desempate)** para evitar a paralisia das atividades da empresa.  
+* **Prevenção de Deadlock (Empate 2 a 2):** Em caso de empate absoluto de votos (2 a 2) em matérias técnicas, operacionais ou estratégicas cotidianas, o sócio **DIEGO ALVES** (na qualidade de Sócio Arquiteto Principal / CTO) **terá expressamente o Voto de Minerva (Casting Vote / Voto de Desempate)** para definir a decisão e evitar a paralisia das atividades da empresa.  
 2.3. **Matérias de Quórum Qualificado (Mínimo de 75% dos votos):**
 * Exigirão a concordância de pelo menos 3 dos 4 sócios as seguintes decisões:
   a) Entrada de novos sócios ou investidores;  
@@ -83,7 +83,7 @@ _____________________________________________
 **THIAGO ROCHA DUARTE**  
 
 _____________________________________________  
-**DIEGO [SOBRENOME]**  
+**DIEGO ALVES**  
 
 _____________________________________________  
 **MÁRCIO [SOBRENOME]**  

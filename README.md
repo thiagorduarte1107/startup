@@ -21,7 +21,7 @@ operacoes/
 ├── 01_juridico/
 │   ├── CONTRATO_SUSTENTACAO_E_SLA.md   # Contrato com Damage Cap e limitação de responsabilidade
 │   ├── ACORDO_CONFIDENCIALIDADE_NDA.md # NDA bilateral com conformidade LGPD
-│   └── ACORDO_DE_SOCIOS.md             # Acordo de sócios: Vesting de 4 anos, Cliff e Voto de Minerva
+│   └── ACORDO_DE_SOCIOS.md             # Acordo de sócios: Vesting de 4 anos, Cliff e Voto de Minerva do Diego
 ├── 02_comercial_marketing/
 │   ├── PROPOSTA_COMERCIAL_EXECUTIVA.md # Proposta de alto valor (Piso R$ 3.800 a R$ 8.500/mês)
 │   └── SCRIPTS_PROSPECCAO_OUTBOUND.md  # 5 scripts de abordagem (WhatsApp, LinkedIn, Agências)
