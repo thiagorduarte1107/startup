@@ -44,6 +44,17 @@ Este repositório fornece a esteira completa para operar uma empresa de desenvol
 
 ---
 
+## 👥 Equipe Fundadora / Core Team
+
+| Sócio Fundador | Papel Estratégico | Perfil no LinkedIn |
+| :--- | :--- | :---: |
+| **Thiago Duarte** | Sócio Administrador & Head de Negócios / Operações | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Thiago_Duarte-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/thiago-duarte-a6597721/) |
+| **Diego Alves** | Sócio Arquiteto Principal & CTO *(Casting Vote)* | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Diego_Alves-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/by-diegoalves/) |
+| **Márcio Alves** | Tech Lead & Core Software Engineer | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Márcio_Alves-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/m%C3%A1rcio-andrade-463590125/) |
+| **Yuri Alves** | Solutions Engineer & Tech Ops | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yuri_Alves-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/yurileader/) |
+
+---
+
 ## ⚖️ Conformidade Legal Brasileira
 
 * **Lei do Software (Lei nº 9.609/1998):** Propriedade intelectual do código vinculada à quitação financeira integral.

@@ -19,9 +19,12 @@ operacoes/
 │   └── PLAYBOOK_LINKEDIN_AUTORIDADE.md # Estratégia editorial e templates de posts técnicos
 ├── 04_rh/
 │   └── AVALIACAO_TECNICA_DEV.md        # Desafio prático para estagiários/suporte (Java/Angular/SQL)
-└── 05_administracao/
-    ├── MATRIZ_SEVERIDADE_E_SLA.md      # Protocolo de atendimento P1/P2/P3 e gestão de chamados
-    └── PLANEJAMENTO_TRIBUTARIO_E_FINANCEIRO.md # Manual CFO: Simples Nacional a 6%, Fator R e Reservas
+├── 05_administracao/
+│   ├── MATRIZ_SEVERIDADE_E_SLA.md      # Protocolo de atendimento P1/P2/P3 e gestão de chamados
+│   └── PLANEJAMENTO_TRIBUTARIO_E_FINANCEIRO.md # Manual CFO: Simples Nacional a 6%, Fator R e Reservas
+└── openbot_integracao/                 # Integração e Robôs Especialistas para o OpenBot
+    ├── README.md                       # Guia de implantação e fluxo de orquestração
+    └── agentes/                        # Perfis prontos: Comercial, Jurídico, SLA, FinOps, Marketing, RH
 ```
 
 ---

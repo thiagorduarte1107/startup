@@ -3,10 +3,10 @@
 Pelo presente instrumento particular de **Acordo de Quotistas**, vinculado ao Contrato Social da sociedade empresária limitada a ser constituída:
 
 **OS SÓCIOS FUNDADORES:**
-1. **THIAGO ROCHA DUARTE**, brasileiro, desenvolvedor e gestor de negócios, residente e domiciliado no Distrito Federal;
-2. **DIEGO ALVES**, brasileiro, arquiteto de software e engenheiro de IA, residente e domiciliado no Distrito Federal;
-3. **MÁRCIO ALVES**, brasileiro, engenheiro de software e tech lead, residente e domiciliado no Distrito Federal;
-4. **YURI ALVES**, brasileiro, engenheiro de software e especialista de tecnologia, residente e domiciliado no Distrito Federal;
+1. **THIAGO ROCHA DUARTE**, brasileiro, desenvolvedor e gestor de negócios, residente e domiciliado no Distrito Federal (LinkedIn: [thiago-duarte](https://www.linkedin.com/in/thiago-duarte-a6597721/));
+2. **DIEGO ALVES**, brasileiro, arquiteto de software e engenheiro de IA, residente e domiciliado no Distrito Federal (LinkedIn: [by-diegoalves](https://www.linkedin.com/in/by-diegoalves/));
+3. **MÁRCIO ALVES**, brasileiro, engenheiro de software e tech lead, residente e domiciliado no Distrito Federal (LinkedIn: [marcio-andrade](https://www.linkedin.com/in/m%C3%A1rcio-andrade-463590125/));
+4. **YURI ALVES**, brasileiro, engenheiro de software e especialista de tecnologia, residente e domiciliado no Distrito Federal (LinkedIn: [yurileader](https://www.linkedin.com/in/yurileader/));
 
 Todos em conjunto doravante denominados **SÓCIOS** ou **FUNDADORES**, resolvem estabelecer as seguintes cláusulas de governança, vesting, deliberações e regras financeiras:
 
