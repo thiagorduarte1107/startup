@@ -5,11 +5,19 @@ Este manual estabelece as regras financeiras, tributárias e a política de dist
 
 ---
 
-## 1. A Engenharia Tributária do Simples Nacional (Economia do Fator R)
+## 1. A Estratégia Financeira em Duas Fases
 
-O desenvolvimento e manutenção de software sob encomenda enquadram-se originariamente no **Anexo V da Lei Complementar nº 123/2006**, cuja alíquota inicial é de **15,50%** sobre o faturamento bruto.
+### Fase 1: Zero Pró-Labore (Regime de Bootstrapping Inicial)
+Nos primeiros meses de vida da empresa, os 4 Sócios Fundadores **não farão retirada de Pró-Labore**.
+* **Objetivo:** Blindar o fluxo de caixa, reinvestir 100% da receita líquida na operação, custear despesas básicas (contador, ferramentas de IA e servidores) e formar rapidamente o colchão de liquidez (Fundo de Reserva).
+* **Distribuição de Lucros Inicial:** Eventuais distribuições ocorrerão de forma pontual como dividendos isentos de imposto de renda, após balancete trimestral contábil aprovado.
 
-Para reduzir essa carga tributária legalmente para o **Anexo III (alíquota inicial de 6,00%)**, aplicamos a fórmula do **Fator R** (Art. 18, § 5º-J da LC 123/2006):
+---
+
+### Fase 2: Ativação do Pró-Labore & Engenharia do Fator R (Atingimento da Tração)
+No momento em que a empresa consolidar uma carteira recorrente (a partir de R$ 25.000 a R$ 30.000/mês), a diretoria ativará a sistemática do **Fator R** para remunerar formalmente os fundadores e garantir a menor alíquota tributária do país:
+
+O desenvolvimento de software sob encomenda enquadra-se originariamente no **Anexo V da LC 123/2006 (alíquota de 15,50%)**. Com a ativação do Pró-Labore igual ou superior a **28% da receita bruta (`Folha / RBT12 >= 0,28`)**, a empresa migra para o **Anexo III (alíquota inicial de apenas 6,00%)**:
 
 $$\text{Fator R} = \frac{\text{Folha de Salários com Pró-Labore (últimos 12 meses)}}{\text{Receita Bruta Total Acumulada (últimos 12 meses)}} \ge 0,28 \ (28\%)$$
 

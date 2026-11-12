@@ -58,11 +58,10 @@ Todos em conjunto doravante denominados **SÓCIOS** ou **FUNDADORES**, resolvem 
 
 ---
 
-### CLÁUSULA SEXTA – POLÍTICA FINANCEIRA, RESERVA E SIMPLES NACIONAL (FATOR R)
-6.1. **Retenção Obrigatória de Fundo de Reserva:** Todo mês, antes de qualquer deliberação sobre distribuição de lucros, **20% (vinte por cento) do lucro líquido contábil apurado será compulsoriamente retido na conta PJ da empresa**, até que a Sociedade acumule um colchão de segurança financeira equivalente a **3 (três) meses de custos fixos operacionais (OPEX)**.  
-6.2. **Planejamento Tributário do Fator R (Anexo III - 6%):**
-* Os Sócios acordam que a empresa operará enquadrada no **Simples Nacional**, mantendo a folha de pagamento e os Pró-Labores fixados mensalmente no patamar mínimo de **28,1% da Receita Bruta acumulada dos últimos 12 meses (RBT12)**, garantindo expressamente a tributação da atividade de software na alíquota inicial de **6,0% pelo Anexo III da LC 123/2006**.  
-6.3. **Distribuição de Lucros:** A distribuição de dividendos isentos de imposto de renda aos sócios ocorrerá em periodicidade trimestral ou semestral, exclusivamente após o fechamento do balancete contábil assinado por contador habilitado e verificação de inexistência de pendências fiscais ou previdenciárias.
+### CLÁUSULA SEXTA – POLÍTICA FINANCEIRA, RESERVA E FASE INICIAL SEM PRÓ-LABORE
+6.1. **Fase Inicial sem Pró-Labore (Regime de Bootstrapping):** Os Sócios acordam expressamente que, durante a fase inicial de validação e tração da Sociedade, **não haverá retirada de Pró-Labore** por nenhum dos Sócios Fundadores. Toda a receita líquida gerada será integralmente direcionada à quitação de tributos, ferramentas operacionais e formação de caixa. A instituição futura de Pró-Labore e sua calibragem para otimização de Fator R (Anexo III a 6% do Simples Nacional) será deliberada formalmente pelos Sócios quando a empresa atingir receita recorrente estável.  
+6.2. **Retenção Obrigatória de Fundo de Reserva:** Todo mês, antes de qualquer deliberação sobre distribuição de lucros futuros, **20% (vinte por cento) do lucro líquido contábil apurado será compulsoriamente retido na conta PJ da empresa**, até que a Sociedade acumule um colchão de segurança financeira equivalente a **3 (três) a 6 (seis) meses de custos fixos operacionais (OPEX)**.  
+6.3. **Distribuição de Lucros:** A distribuição de dividendos isentos de imposto de renda aos sócios, quando deliberada, ocorrerá em periodicidade trimestral ou semestral, proporcionalmente às quotas vestidas, exclusivamente após o fechamento do balancete contábil assinado por contador habilitado e verificação de inexistência de pendências fiscais ou previdenciárias.
 
 ---
 
