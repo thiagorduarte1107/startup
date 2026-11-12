@@ -36,7 +36,7 @@ flowchart TD
     USR["Mensagem do Usuário / Sócio"] --> TORRE["Pai de todos / Torre de Controle"]
     TORRE -->|"Tag [COMERCIAL]"| AG_COM["Operativo-Comercial\n(SDR & Propostas)"]
     TORRE -->|"Tag [JURIDICO]"| AG_JUR["Operativo-Juridico\n(Contratos, SLA, NDA)"]
-    TORRE -->|"Tag [SLA / FIN / MKT / RH]"| AG_ESP["Operativo Especialista\n(SLA, FinOps, Marketing, TechScreen)"]
+    TORRE -->|"Tag [SLA] / [FINANCEIRO] / [MARKETING] / [RH]"| AG_ESP["Operativo Especialista\n(SLA, FinOps, Marketing, TechScreen)"]
     
     AG_COM --> QA["Especialista-QA\n(Auditoria de evidências / números)"]
     AG_JUR --> QA
