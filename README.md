@@ -6,6 +6,12 @@
 
 ---
 
+> [!IMPORTANT]
+> ### 🏛️ Documento Central de Lançamento
+> Acesse o [**PLANO_DE_LANCAMENTO_EMPRESARIAL.md**](PLANO_DE_LANCAMENTO_EMPRESARIAL.md) — O Plano Mestre oficial de fundação, governança dos 4 sócios fundadores, engenharia tributária (Simples Nacional / Fator R a 6%), infraestrutura tecnológica e estratégia Go-to-Market de D-60 a D+30.
+
+---
+
 ## 🎯 Por Que Este Repositório Existe?
 
 A maioria dos contratos e playbooks disponíveis no GitHub são traduções de modelos norte-americanos (Delaware/Califórnia), que não possuem validade jurídica ou não protegem desenvolvedores de tecnologia no Brasil.
@@ -17,21 +23,23 @@ Este repositório fornece a esteira completa para operar uma empresa de desenvol
 ## 📂 Estrutura do Toolkit
 
 ```
-operacoes/
-├── 01_juridico/
-│   ├── CONTRATO_SUSTENTACAO_E_SLA.md   # Contrato com Damage Cap e limitação de responsabilidade
-│   ├── ACORDO_CONFIDENCIALIDADE_NDA.md # NDA bilateral com conformidade LGPD
-│   └── ACORDO_DE_SOCIOS.md             # Acordo de sócios: Vesting de 4 anos, Cliff e Voto de Minerva do Diego
-├── 02_comercial_marketing/
-│   ├── PROPOSTA_COMERCIAL_EXECUTIVA.md # Proposta de alto valor (Piso R$ 3.800 a R$ 8.500/mês)
-│   └── SCRIPTS_PROSPECCAO_OUTBOUND.md  # 5 scripts de abordagem (WhatsApp, LinkedIn, Agências)
-├── 03_social_media/
-│   └── PLAYBOOK_LINKEDIN_AUTORIDADE.md # Framework Dev-to-Founder para atração B2B
-├── 04_rh/
-│   └── AVALIACAO_TECNICA_DEV.md        # Desafio de código real para suporte/devs (Java/Angular/SQL)
-└── 05_administracao/
-    ├── MATRIZ_SEVERIDADE_E_SLA.md      # Gestão de incidentes P1 a P4 e fluxo de suporte
-    └── PLANEJAMENTO_TRIBUTARIO_E_FINANCEIRO.md # Engenharia tributária do Fator R (Simples Nacional a 6%)
+.
+├── PLANO_DE_LANCAMENTO_EMPRESARIAL.md   # [DESTAQUE] Plano Mestre de Lançamento e Governança (D-60 a D+30)
+└── operacoes/
+    ├── 01_juridico/
+    │   ├── CONTRATO_SUSTENTACAO_E_SLA.md   # Contrato com Damage Cap e limitação de responsabilidade
+    │   ├── ACORDO_CONFIDENCIALIDADE_NDA.md # NDA bilateral com conformidade LGPD
+    │   └── ACORDO_DE_SOCIOS.md             # Acordo de sócios: Vesting de 4 anos, Cliff e Voto de Minerva do Diego
+    ├── 02_comercial_marketing/
+    │   ├── PROPOSTA_COMERCIAL_EXECUTIVA.md # Proposta de alto valor (Piso R$ 3.800 a R$ 8.500/mês)
+    │   └── SCRIPTS_PROSPECCAO_OUTBOUND.md  # 5 scripts de abordagem (WhatsApp, LinkedIn, Agências)
+    ├── 03_social_media/
+    │   └── PLAYBOOK_LINKEDIN_AUTORIDADE.md # Framework Dev-to-Founder para atração B2B
+    ├── 04_rh/
+    │   └── AVALIACAO_TECNICA_DEV.md        # Desafio de código real para suporte/devs (Java/Angular/SQL)
+    └── 05_administracao/
+        ├── MATRIZ_SEVERIDADE_E_SLA.md      # Gestão de incidentes P1 a P4 e fluxo de suporte
+        └── PLANEJAMENTO_TRIBUTARIO_E_FINANCEIRO.md # Engenharia tributária do Fator R (Simples Nacional a 6%)
 ```
 
 ---
@@ -52,9 +60,10 @@ operacoes/
    ```bash
    git clone https://github.com/SEU-USUARIO/kit-software-house-brasil.git
    ```
-2. Abra a pasta `operacoes/` no seu editor (VS Code, Obsidian, etc.);
-3. Substitua as tags `[RAZÃO SOCIAL]` e `[CNPJ]` pelos dados oficiais da sua empresa;
-4. Utilize a [PROPOSTA_COMERCIAL_EXECUTIVA.md](operacoes/02_comercial_marketing/PROPOSTA_COMERCIAL_EXECUTIVA.md) e o [CONTRATO_SUSTENTACAO_E_SLA.md](operacoes/01_juridico/CONTRATO_SUSTENTACAO_E_SLA.md) para fechar seus primeiros contratos com segurança.
+2. Leia e execute o [**PLANO_DE_LANCAMENTO_EMPRESARIAL.md**](PLANO_DE_LANCAMENTO_EMPRESARIAL.md) para alinhar a governança e o cronograma D-60 a D+30 com os sócios;
+3. Abra a pasta `operacoes/` no seu editor (VS Code, Cursor, Obsidian, etc.);
+4. Substitua as tags `[RAZÃO SOCIAL]` e `[CNPJ]` pelos dados oficiais da sua empresa;
+5. Utilize a [PROPOSTA_COMERCIAL_EXECUTIVA.md](operacoes/02_comercial_marketing/PROPOSTA_COMERCIAL_EXECUTIVA.md) e o [CONTRATO_SUSTENTACAO_E_SLA.md](operacoes/01_juridico/CONTRATO_SUSTENTACAO_E_SLA.md) para fechar seus primeiros contratos com segurança jurídica.
 
 ---
 

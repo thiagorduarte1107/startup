@@ -5,8 +5,8 @@ Pelo presente instrumento particular de **Acordo de Quotistas**, vinculado ao Co
 **OS SÓCIOS FUNDADORES:**
 1. **THIAGO ROCHA DUARTE**, brasileiro, desenvolvedor e gestor de negócios, residente e domiciliado no Distrito Federal;
 2. **DIEGO ALVES**, brasileiro, arquiteto de software e engenheiro de IA, residente e domiciliado no Distrito Federal;
-3. **MÁRCIO [SOBRENOME]**, brasileiro, engenheiro de software e tech lead, residente e domiciliado no Distrito Federal;
-4. **YURI [SOBRENOME]**, brasileiro, engenheiro de software e especialista de tecnologia, residente e domiciliado no Distrito Federal;
+3. **MÁRCIO ALVES**, brasileiro, engenheiro de software e tech lead, residente e domiciliado no Distrito Federal;
+4. **YURI ALVES**, brasileiro, engenheiro de software e especialista de tecnologia, residente e domiciliado no Distrito Federal;
 
 Todos em conjunto doravante denominados **SÓCIOS** ou **FUNDADORES**, resolvem estabelecer as seguintes cláusulas de governança, vesting, deliberações e regras financeiras:
 
@@ -85,7 +85,7 @@ _____________________________________________
 **DIEGO ALVES**  
 
 _____________________________________________  
-**MÁRCIO [SOBRENOME]**  
+**MÁRCIO ALVES**  
 
 _____________________________________________  
-**YURI [SOBRENOME]**  
+**YURI ALVES**  
