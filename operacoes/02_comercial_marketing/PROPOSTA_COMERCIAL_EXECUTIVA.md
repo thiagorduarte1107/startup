@@ -13,7 +13,7 @@ Muitas empresas sofrem com sistemas legados instáveis, atrasos em novas funcion
 
 Nossa consultoria entrega a solução definitiva:
 * **Engenharia Sênior:** Liderança técnica com quase **20 anos de experiência** em arquitetura corporativa, backend robusto (Java/Spring Boot), frontends modernos (Angular), bancos SQL e soluções com Inteligência Artificial.
-* **Corpo Diretivo Multidisciplinar:** O cliente conta com o acompanhamento direto de 4 especialistas seniores: [Thiago Duarte](https://www.linkedin.com/in/thiago-duarte-a6597721/) (Operações & Negócios), [Diego Alves](https://www.linkedin.com/in/by-diegoalves/) (Arquiteto Principal & CTO), [Márcio Alves](https://www.linkedin.com/in/m%C3%A1rcio-andrade-463590125/) (Tech Lead) e [Yuri Alves](https://www.linkedin.com/in/yurileader/) (Solutions Engineer).
+* **Sociedade Técnica de Engenharia:** Todos os 4 sócios fundadores atuam diretamente na área técnica de engenharia de software com igualdade hierárquica e dedicação sênior: [Thiago Duarte](https://www.linkedin.com/in/thiago-duarte-a6597721/), [Diego Alves](https://www.linkedin.com/in/by-diegoalves/), [Márcio Alves](https://www.linkedin.com/in/m%C3%A1rcio-andrade-463590125/) e [Yuri Alves](https://www.linkedin.com/in/yurileader/). O seu sistema é construído e sustentado diretamente pelos sócios engenheiros, sem intermediários ou júniores desassistidos.
 * **Esteira AI-Native com Supervisão Humana:** Agilidade acelerada por agentes de IA, com código revisado e homologado por engenheiros seniores antes do deploy.
 * **Segurança e SLA Contratual:** Empresa formalizada com CNPJ, emissão de NFS-e, contrato com tempo de resposta garantido e código 100% de propriedade da sua empresa.
 

@@ -31,29 +31,19 @@ Para cada um dos 6 robôs no OpenBot (menu lateral → **Novo Agente**):
 
 ## 🔄 Fluxo de Orquestração com o OpenBot
 
-```
-             Mensagem do Usuário / Sócio
-                         │
-                         ▼
-             [Pai de todos / Torre]
-                         │
-        ┌────────────────┼────────────────┐
-        │ [COMERCIAL]    │ [JURIDICO]     │ [SLA] / [FINANCEIRO] / [MARKETING] / [RH]
-        ▼                ▼                ▼
-Operativo-Comercial  Operativo-Juridico  Operativo Especialista
-        │                │                │
-        └────────────────┼────────────────┘
-                         ▼
-                 [Especialista-QA]
-       (Auditoria de evidências / números)
-                         │
-                         ▼
-                    [O Cético]
-       (Validação de premissas e riscos)
-                         │
-                         ▼
-                  [Canal Entregas]
-     (Artefato pronto para aprovação dos Sócios - N1)
+```mermaid
+flowchart TD
+    USR["Mensagem do Usuário / Sócio"] --> TORRE["Pai de todos / Torre de Controle"]
+    TORRE -->|"Tag [COMERCIAL]"| AG_COM["Operativo-Comercial\n(SDR & Propostas)"]
+    TORRE -->|"Tag [JURIDICO]"| AG_JUR["Operativo-Juridico\n(Contratos, SLA, NDA)"]
+    TORRE -->|"Tag [SLA / FIN / MKT / RH]"| AG_ESP["Operativo Especialista\n(SLA, FinOps, Marketing, TechScreen)"]
+    
+    AG_COM --> QA["Especialista-QA\n(Auditoria de evidências / números)"]
+    AG_JUR --> QA
+    AG_ESP --> QA
+    
+    QA --> CET["O Cético\n(Validação de premissas e riscos)"]
+    CET --> ENT["Canal Entregas\n(Artefato pronto para aprovação dos Sócios - N1)"]
 ```
 
 ---

@@ -17,32 +17,12 @@ Este documento define o procedimento padrão para abertura, triagem, resolução
 
 ## 2. Fluxo Operacional de Atendimento (Passo a Passo)
 
-```
-[Chamado no WhatsApp / E-mail do Cliente]
-                 │
-                 ▼
-     ┌───────────────────────┐
-     │ 1. Triagem e Registro │ ──► Thiago ou Yuri confirma o recebimento
-     │    do Chamado         │     e classifica a severidade (P1 a P4).
-     └───────────┬───────────┘
-                 │
-                 ▼
-     ┌───────────────────────┐
-     │ 2. Contorno Imediato  │ ──► Márcio e Diego identificam o gargalo
-     │    (Workaround)       │     e restauram a operação básica (se P1).
-     └───────────┬───────────┘
-                 │
-                 ▼
-     ┌───────────────────────┐
-     │ 3. Resolução e Testes │ ──► Correção no código com testes automatizados
-     │    (AI-Native)        │     e tripla supervisão antes do deploy.
-     └───────────┬───────────┘
-                 │
-                 ▼
-     ┌───────────────────────┐
-     │ 4. Fechamento e       │ ──► Notificação formal ao cliente e desconto
-     │    Apontamento        │     das horas no banco mensal contratado.
-     └───────────────────────┘
+```mermaid
+flowchart TD
+    IN["Chamado do Cliente\n(WhatsApp / E-mail / Portal)"] --> S1["1. Triagem e Registro do Chamado\n• Thiago ou Yuri confirma recebimento\n• Classificação de severidade (P1 a P4)"]
+    S1 --> S2["2. Contorno Imediato (Workaround)\n• Márcio e Diego identificam o gargalo\n• Restauração da operação básica se P1"]
+    S2 --> S3["3. Resolução e Testes (AI-Native)\n• Correção com testes automatizados\n• Tripla supervisão sênior antes do deploy"]
+    S3 --> S4["4. Fechamento e Apontamento\n• Notificação formal de encerramento\n• Débito das horas no banco mensal contratado"]
 ```
 
 ---

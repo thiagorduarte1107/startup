@@ -18,11 +18,11 @@ Todos em conjunto doravante denominados **SÓCIOS** ou **FUNDADORES**, resolvem 
 
 ---
 
-### CLÁUSULA SEGUNDA – DA GOVERNANÇA, ADMINISTRAÇÃO E VOTO DE MINERVA
-2.1. **Sócio Administrador:** A administração ordinária da Sociedade e a representação perante bancos, cartórios, clientes e órgãos públicos caberá ao sócio **THIAGO ROCHA DUARTE**, denominado Sócio Administrador.  
+### CLÁUSULA SEGUNDA – DA ESTRUTURA HORIZONTAL DE ENGENHARIA, ADMINISTRAÇÃO E CASTING VOTE
+2.1. **Estrutura Horizontal e Igualdade Hierárquica:** Todos os 4 Sócios Fundadores atuam diretamente na área técnica de engenharia e desenvolvimento de software, posicionando-se rigorosamente no **mesmo nível de hierarquia corporativa**, com igualdade de voz e valor de voto na condução da Sociedade. A designação formal do sócio **THIAGO ROCHA DUARTE** como Sócio Administrador destina-se estritamente à representação legal perante órgãos públicos, cartórios, bancos e clientes.  
 2.2. **Deliberações Ordinárias e Voto de Desempate (Casting Vote do Diego):**
-* As decisões cotidianas de contratação, propostas comerciais, compras operacionais e rotinas técnicas até o limite de R$ 50.000,00 serão tomadas por maioria simples dos votos.
-* **Prevenção de Deadlock (Empate 2 a 2):** Em caso de empate absoluto de votos (2 a 2) em matérias técnicas, operacionais ou estratégicas cotidianas, o sócio **DIEGO ALVES** (na qualidade de Sócio Arquiteto Principal / CTO) **terá expressamente o Voto de Minerva (Casting Vote / Voto de Desempate)** para definir a decisão e evitar a paralisia das atividades da empresa.  
+* As decisões cotidianas de contratação, propostas comerciais, compras operacionais e rotinas técnicas de software até o limite de R$ 50.000,00 serão tomadas por maioria simples dos votos dos 4 sócios.
+* **Prevenção de Deadlock (Empate 2 a 2):** Em caso de empate absoluto de votos (2 a 2) em deliberações técnicas, operacionais ou estratégicas cotidianas, o sócio **DIEGO ALVES** **terá expressamente o Voto de Minerva (Casting Vote / Voto de Desempate)** para dirimir o impasse e definir o direcionamento da Sociedade.  
 2.3. **Matérias de Quórum Qualificado (Mínimo de 75% dos votos):**
 * Exigirão a concordância de pelo menos 3 dos 4 sócios as seguintes decisões:
   a) Entrada de novos sócios ou investidores;  

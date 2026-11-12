@@ -41,36 +41,13 @@ $$\text{Fator R} = \frac{\text{Folha de Salários com Pró-Labore (últimos 12 m
 
 Para manter a saúde financeira da empresa e impedir retiradas precipitadas, a distribuição do faturamento mensal seguirá rigorosamente a seguinte cascata:
 
-```
-                  [ RECEITA BRUTA: R$ 50.000 / mês ]
-                                  │
-                                  ▼
-      ┌────────────────────────────────────────────────────────┐
-      │ 1. DEDUÇÕES OBRIGATÓRIAS                               │
-      │    • Guia do DAS Simples Nacional (6%): R$ 3.000       │
-      │    • OPEX Fixo (Contador, AWS, LLMs, Ferramentas): ~R$ 3.000
-      └───────────────────────────┬────────────────────────────┘
-                                  │
-                                  ▼
-      ┌────────────────────────────────────────────────────────┐
-      │ 2. PRÓ-LABORE DOS 4 SÓCIOS (Fator R)                   │
-      │    • R$ 14.100 bruto distribuído entre os sócios       │
-      │    • Garante contribuição previdenciária e INSS        │
-      └───────────────────────────┬────────────────────────────┘
-                                  │
-                                  ▼
-                    [ LUCRO LÍQUIDO DISPONÍVEL ]
-                                  │
-                 ┌────────────────┴────────────────┐
-                 ▼                                 ▼
-      ┌─────────────────────┐           ┌─────────────────────┐
-      │ 3. FUNDO DE RESERVA │           │ 4. DIVIDENDOS       │
-      │    (20% retido)     │           │    ISENTOS (80%)    │
-      │    • Fica no caixa  │           │    • Distribuídos   │
-      │      da empresa     │           │      aos 4 sócios   │
-      │    • Colchão de 3   │           │      após balancete │
-      │      meses de OPEX  │           │      trimestral     │
-      └─────────────────────┘           └─────────────────────┘
+```mermaid
+flowchart TD
+    REC["RECEITA BRUTA MENSAL\n(Exemplo: R$ 50.000 / mês)"] --> DED["1. Deduções Obrigatórias\n• Guia do DAS Simples Nacional (6%): R$ 3.000\n• OPEX Fixo (Contador, AWS, LLMs, Ferramentas): ~R$ 3.000"]
+    DED --> PRO["2. Pró-Labore dos 4 Sócios (Fator R >= 28%)\n• R$ 14.100 bruto distribuído entre os sócios\n• Garante contribuição previdenciária e INSS"]
+    PRO --> LIQ["LUCRO LÍQUIDO DISPONÍVEL"]
+    LIQ --> RES["3. Fundo de Reserva (20% retido)\n• Permanece no caixa PJ da empresa\n• Meta: Colchão de 3 meses de OPEX"]
+    LIQ --> DIV["4. Dividendos Isentos (80% restantes)\n• Distribuídos aos 4 sócios fundadores\n• Apuração após balancete contábil trimestral"]
 ```
 
 ---
