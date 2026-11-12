@@ -12,7 +12,7 @@
 
 > [!IMPORTANT]
 > ### 🏛️ Documento Central de Lançamento
-> Acesse o [**PLANO_DE_LANCAMENTO_EMPRESARIAL.md**](PLANO_DE_LANCAMENTO_EMPRESARIAL.md) — O Plano Mestre oficial de fundação, governança dos 4 sócios fundadores, engenharia tributária (Simples Nacional / Fator R a 6%), infraestrutura tecnológica e estratégia Go-to-Market de D-60 a D+30.
+> Acesse o [**PLANO_DE_LANCAMENTO_EMPRESARIAL.md**](PLANO_DE_LANCAMENTO_EMPRESARIAL.md) ou faça o download da versão formatada para Word: [**PLANO_DE_LANCAMENTO_EMPRESARIAL.docx**](PLANO_DE_LANCAMENTO_EMPRESARIAL.docx) — O Plano Mestre oficial de fundação, governança dos 4 sócios fundadores, engenharia tributária (Simples Nacional / Fator R a 6%), infraestrutura tecnológica e estratégia Go-to-Market de D-60 a D+30.
 
 ---
 
@@ -28,23 +28,32 @@ Este repositório fornece a esteira completa para operar uma empresa de desenvol
 
 ```
 .
-├── PLANO_DE_LANCAMENTO_EMPRESARIAL.md   # [DESTAQUE] Plano Mestre de Lançamento e Governança (D-60 a D+30)
+├── PLANO_DE_LANCAMENTO_EMPRESARIAL.md (.docx)   # [DESTAQUE] Plano Mestre de Lançamento e Governança (D-60 a D+30)
 └── operacoes/
     ├── 01_juridico/
-    │   ├── CONTRATO_SUSTENTACAO_E_SLA.md   # Contrato com Damage Cap e limitação de responsabilidade
-    │   ├── ACORDO_CONFIDENCIALIDADE_NDA.md # NDA bilateral com conformidade LGPD
-    │   └── ACORDO_DE_SOCIOS.md             # Acordo de sócios: Vesting de 4 anos, Cliff e Voto de Minerva do Diego
+    │   ├── CONTRATO_SUSTENTACAO_E_SLA.md (.docx)   # Contrato com Damage Cap e limitação de responsabilidade
+    │   ├── ACORDO_CONFIDENCIALIDADE_NDA.md (.docx) # NDA bilateral com conformidade LGPD
+    │   └── ACORDO_DE_SOCIOS.md (.docx)             # Acordo de sócios: Vesting de 4 anos, Cliff e Voto de Minerva do Diego
     ├── 02_comercial_marketing/
-    │   ├── PROPOSTA_COMERCIAL_EXECUTIVA.md # Proposta de alto valor (Piso R$ 3.800 a R$ 8.500/mês)
-    │   └── SCRIPTS_PROSPECCAO_OUTBOUND.md  # 5 scripts de abordagem (WhatsApp, LinkedIn, Agências)
+    │   ├── PROPOSTA_COMERCIAL_EXECUTIVA.md (.docx) # Proposta de alto valor (Piso R$ 3.800 a R$ 8.500/mês)
+    │   └── SCRIPTS_PROSPECCAO_OUTBOUND.md          # 5 scripts de abordagem (WhatsApp, LinkedIn, Agências)
     ├── 03_social_media/
-    │   └── PLAYBOOK_LINKEDIN_AUTORIDADE.md # Framework Dev-to-Founder para atração B2B
+    │   └── PLAYBOOK_LINKEDIN_AUTORIDADE.md         # Framework Dev-to-Founder para atração B2B
     ├── 04_rh/
-    │   └── AVALIACAO_TECNICA_DEV.md        # Desafio de código real para suporte/devs (Java/Angular/SQL)
+    │   └── AVALIACAO_TECNICA_DEV.md                # Desafio de código real para suporte/devs (Java/Angular/SQL)
     └── 05_administracao/
-        ├── MATRIZ_SEVERIDADE_E_SLA.md      # Gestão de incidentes P1 a P4 e fluxo de suporte
-        └── PLANEJAMENTO_TRIBUTARIO_E_FINANCEIRO.md # Engenharia tributária do Fator R (Simples Nacional a 6%)
+        ├── MATRIZ_SEVERIDADE_E_SLA.md              # Gestão de incidentes P1 a P4 e fluxo de suporte
+        └── PLANEJAMENTO_TRIBUTARIO_E_FINANCEIRO.md (.docx) # Engenharia tributária do Fator R (Simples Nacional a 6%)
 ```
+
+### 📥 Documentos Disponíveis em Word (.docx) para Download
+Para agilizar o fechamento comercial, assinaturas digitais (Gov.br / Clicksign / ZapSign) e reuniões societárias/contábeis, todos os documentos burocráticos e comerciais possuem versão editável `.docx`:
+- 🏛️ **Plano Mestre de Lançamento:** [`PLANO_DE_LANCAMENTO_EMPRESARIAL.docx`](PLANO_DE_LANCAMENTO_EMPRESARIAL.docx)
+- 🤝 **Acordo de Sócios (Vesting & Minerva):** [`ACORDO_DE_SOCIOS.docx`](operacoes/01_juridico/ACORDO_DE_SOCIOS.docx)
+- 📜 **Contrato de Sustentação & SLA:** [`CONTRATO_SUSTENTACAO_E_SLA.docx`](operacoes/01_juridico/CONTRATO_SUSTENTACAO_E_SLA.docx)
+- 🔒 **Acordo de Confidencialidade (NDA):** [`ACORDO_CONFIDENCIALIDADE_NDA.docx`](operacoes/01_juridico/ACORDO_CONFIDENCIALIDADE_NDA.docx)
+- 💼 **Proposta Comercial Executiva:** [`PROPOSTA_COMERCIAL_EXECUTIVA.docx`](operacoes/02_comercial_marketing/PROPOSTA_COMERCIAL_EXECUTIVA.docx)
+- 💰 **Planejamento Tributário & Financeiro:** [`PLANEJAMENTO_TRIBUTARIO_E_FINANCEIRO.docx`](operacoes/05_administracao/PLANEJAMENTO_TRIBUTARIO_E_FINANCEIRO.docx)
 
 ---
 
