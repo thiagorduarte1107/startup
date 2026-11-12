@@ -48,12 +48,12 @@ Este repositório fornece a esteira completa para operar uma empresa de desenvol
 
 > **Modelo de Sociedade Horizontal:** Todos os fundadores atuam como **Sócios Engenheiros de Software no mesmo nível de hierarquia corporativa**, dedicados à engenharia, arquitetura e entrega técnica de alto escalão, contando com o sócio **Diego Alves** como detentor do *Casting Vote* (Voto de Minerva) em caso de empate deliberativo.
 
-| Sócio Fundador | Atuação Técnica & Estratégica (Mesmo Nível Hierárquico) | Perfil no LinkedIn |
-| :--- | :--- | :---: |
-| **Thiago Duarte** | Sócio Engenheiro de Software (Operações & Gestão Administrativa) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Thiago_Duarte-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/thiago-duarte-a6597721/) |
-| **Diego Alves** | Sócio Engenheiro de Software & Arquiteto Principal *(Casting Vote)* | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Diego_Alves-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/by-diegoalves/) |
-| **Márcio Andrade Alves** | Sócio Engenheiro de Software & Tech Lead | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Márcio_Alves-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/m%C3%A1rcio-andrade-463590125/) |
-| **Yuri Alves** | Sócio Engenheiro de Software & Solutions Ops | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yuri_Alves-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/yurileader/) |
+| Sócio Fundador | Atuação Técnica & Estratégica (Mesmo Nível Hierárquico) | LinkedIn | GitHub |
+| :--- | :--- | :---: | :---: |
+| **Thiago Duarte** | Sócio Engenheiro de Software (Operações & Gestão Administrativa) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Thiago_Duarte-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/thiago-duarte-a6597721/) | [![GitHub](https://img.shields.io/badge/GitHub-thiagorduarte1107-181717?style=flat&logo=github)](https://github.com/thiagorduarte1107) |
+| **Diego Alves** | Sócio Engenheiro de Software & Arquiteto Principal *(Casting Vote)* | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Diego_Alves-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/by-diegoalves/) | [![GitHub](https://img.shields.io/badge/GitHub-isdiegoalves-181717?style=flat&logo=github)](https://github.com/isdiegoalves) |
+| **Márcio Andrade Alves** | Sócio Engenheiro de Software & Tech Lead | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Márcio_Alves-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/m%C3%A1rcio-andrade-463590125/) | [![GitHub](https://img.shields.io/badge/GitHub-hellfyzor-181717?style=flat&logo=github)](https://github.com/hellfyzor) |
+| **Yuri Alves** | Sócio Engenheiro de Software & Solutions Ops | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yuri_Alves-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/yurileader/) | [![GitHub](https://img.shields.io/badge/GitHub-yurileader-181717?style=flat&logo=github)](https://github.com/yurileader) |
 
 ---
 
