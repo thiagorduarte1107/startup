@@ -50,7 +50,8 @@ Têm entre si, justo e contratado, o presente Contrato, mediante as seguintes cl
 | **P3 - Média** | Falha em funcionalidade parcial, lentidão pontual ou demanda com alternativa de contorno. | **Até 8 horas** | Até 24 horas |
 | **P4 - Baixa / Evolutiva** | Dúvidas, pequenos ajustes cosméticos ou melhorias de rotina. | **Até 12 horas** | Agendada no backlog |
 
-3.2. Os chamados de emergência de Severidade P1 fora do horário comercial (noites ou fins de semana) deverão ser acionados via canal de sobreaviso, com valor-hora especial de **R$ 250,00 (duzentos e cinquenta reais)**.
+3.2. Os chamados de emergência de Severidade P1 fora do horário comercial (noites ou fins de semana) deverão ser acionados via canal de sobreaviso, com valor-hora especial de **R$ 250,00 (duzentos e cinquenta reais)**.  
+3.3. **Penalidade Exclusiva por Descumprimento de SLA:** Eventual descumprimento injustificado dos prazos estipulados para chamados de Severidade P1 conferirá à CONTRATANTE exclusivamente o direito a um desconto financeiro de 5% (cinco por cento) sobre a mensalidade vincenda do mês subsequente por ocorrência, limitado ao teto máximo de 10% (dez por cento) do valor mensal. O descumprimento pontual de SLA não ensejará rescisão automática nem constituirá fundamento para pleito de perdas e danos ou indenizações materiais.
 
 ---
 
@@ -63,8 +64,8 @@ Têm entre si, justo e contratado, o presente Contrato, mediante as seguintes cl
 ---
 
 ### CLÁUSULA QUINTA – DA PROPRIEDADE INTELECTUAL
-5.1. Todo o código-fonte, scripts, documentações e customizações desenvolvidos especificamente para a **CONTRATANTE** em decorrência deste contrato pertencerão exclusivamente à **CONTRATANTE** após a respectiva quitação financeira.  
-5.2. A **CONTRATADA** resguarda a titularidade sobre suas ferramentas pré-existentes, bibliotecas proprietárias, frameworks internos e métodos de engenharia desenvolvidos de forma independente.
+5.1. Todo o código-fonte, scripts de aplicação, documentações e customizações desenvolvidos especificamente para atender às regras de negócio da **CONTRATANTE** em decorrência deste contrato pertencerão exclusivamente à **CONTRATANTE** após a respectiva quitação financeira.  
+5.2. A **CONTRATADA** resguarda a titularidade exclusiva sobre suas ferramentas pré-existentes, bibliotecas proprietárias, frameworks internos, métodos de engenharia, prompts de Inteligência Artificial e rotinas-base desenvolvidos de forma independente, outorgando à **CONTRATANTE** apenas uma licença de uso perpétua, irrevogável e não-exclusiva para a operação de seus sistemas.
 
 ---
 
@@ -78,12 +79,18 @@ Têm entre si, justo e contratado, o presente Contrato, mediante as seguintes cl
 ### CLÁUSULA SÉTIMA – DA VIGÊNCIA E RESCISÃO
 7.1. O presente contrato tem vigência de **[12 (doze) meses]**, iniciando em **[DATA DE INÍCIO]** e renovando-se automaticamente por períodos iguais caso nenhuma das partes se manifeste em contrário.  
 7.2. Qualquer das partes poderá rescindir o presente contrato imotivadamente mediante aviso prévio por escrito com antecedência mínima de **30 (trinta) dias**, sem incidência de multa após decorridos os primeiros 90 (noventa) dias de contrato.  
-7.3. O descumprimento reiterado de obrigações essenciais ou do SLA acordado ensejará a rescisão motivada imediata, sem ônus para a parte inocente.
+7.3. O descumprimento reiterado e injustificado de obrigações essenciais ensejará a rescisão motivada, após notificação formal com prazo de 15 (quinze) dias para saneamento da falha.
 
 ---
 
-### CLÁUSULA OITAVA – DO FORO
-8.1. Para dirimir quaisquer litígios oriundos do presente instrumento, as partes elegem o **Foro da Circunscrição Judiciária de Brasília - DF**, com expressa renúncia a qualquer outro, por mais privilegiado que seja.
+### CLÁUSULA OITAVA – DA LIMITAÇÃO DE RESPONSABILIDADE CIVIL (DAMAGE CAP)
+8.1. **Teto Máximo Indenizatório (Damage Cap):** A responsabilidade civil total e cumulativa da **CONTRATADA** perante a **CONTRATANTE** ou quaisquer terceiros por quaisquer danos diretos, perdas, custos, falhas operacionais ou prejuízos decorrentes deste Contrato, independentemente da teoria jurídica aplicada (contratual, extracontratual ou responsabilidade civil), estará **estrita e expressamente limitada à soma do valor correspondente a 3 (três) mensalidades vigentes** efetivamente pagas pela **CONTRATANTE** nos últimos 3 meses anteriores ao evento danoso.  
+8.2. **Exclusão de Danos Indiretos e Lucros Cessantes:** Em nenhuma hipótese a **CONTRATADA** responderá perante a **CONTRATANTE** por: lucros cessantes, perda de receitas, perda de faturamento, paralisação de vendas, interrupção de negócios, danos indiretos, incidentais ou punitivos, nem por perda ou corrupção de dados decorrentes de falhas de serviços terceirizados, instabilidade em provedores de nuvem (AWS/GCP/Azure) ou ataques cibernéticos externos imprevisíveis.
+
+---
+
+### CLÁUSULA NONA – DO FORO
+9.1. Para dirimir quaisquer litígios oriundos do presente instrumento, as partes elegem o **Foro da Circunscrição Judiciária de Brasília - DF**, com expressa renúncia a qualquer outro, por mais privilegiado que seja.
 
 E, por estarem justas e contratadas, as partes firmam o presente instrumento por meio de assinatura eletrônica nos termos da Lei nº 14.063/2020.
 

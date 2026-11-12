@@ -25,16 +25,16 @@ Ideal para empresas que já possuem sistemas em produção e necessitam de garan
 
 | Item | PLANO ESSENCIAL | PLANO PROFISSIONAL *(Recomendado)* | PLANO ENTERPRISE |
 | :--- | :---: | :---: | :---: |
-| **Banco de Horas Mensal** | **15 horas / mês** | **30 horas / mês** | **50 horas / mês** |
+| **Banco de Horas Mensal** | **20 horas / mês** | **35 horas / mês** | **60 horas / mês** |
 | **SLA (Primeira Resposta P1)** | Até 8 horas úteis | **Até 4 horas úteis** | **Até 2 horas úteis** |
 | **Manutenção Corretiva & Bugs** | Sim | Sim | Sim |
 | **Otimização de Banco de Dados SQL** | Sim | Sim | Sim |
 | **Monitoramento Proativo & Alertas** | Básico | Avançado | Tempo Real 24/7 |
 | **Reunião de Alinhamento Técnico** | Mensal | Quinzenal | Semanal |
-| **Hora Adicional Excedente** | R$ 180,00 / hora | R$ 160,00 / hora | R$ 150,00 / hora |
-| **INVESTIMENTO MENSAL** | **R$ 2.500,00 / mês** | **R$ 4.500,00 / mês** | **R$ 7.500,00 / mês** |
+| **Hora Adicional Excedente** | R$ 200,00 / hora | R$ 180,00 / hora | R$ 160,00 / hora |
+| **INVESTIMENTO MENSAL** | **R$ 3.800,00 / mês** | **R$ 5.500,00 / mês** | **R$ 8.500,00 / mês** |
 
-> *Nota: O banco de horas mensal destina-se a manutenções corretivas e pequenas evoluções. As horas não são cumulativas para o mês subsequente.*
+> *Nota: O banco de horas mensal destina-se a manutenções corretivas e evoluções contínuas. As horas não são cumulativas para o mês subsequente. Nossos contratos possuem cláusula padrão de Limitação de Responsabilidade Civil (Damage Cap) e SLA com bonificação em crédito financeiro, garantindo total segurança jurídica e previsibilidade para ambas as partes.*
 
 ---
 

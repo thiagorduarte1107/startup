@@ -9,17 +9,19 @@ Este diretório contém a esteira operacional completa, os contratos, os scripts
 ```
 operacoes/
 ├── 01_juridico/
-│   ├── CONTRATO_SUSTENTACAO_E_SLA.md   # Minuta jurídica oficial de manutenção contínua
-│   └── ACORDO_CONFIDENCIALIDADE_NDA.md # Acordo de sigilo e proteção de código/dados
+│   ├── CONTRATO_SUSTENTACAO_E_SLA.md   # Minuta jurídica com Damage Cap e SLA blindado
+│   ├── ACORDO_CONFIDENCIALIDADE_NDA.md # Acordo de sigilo e proteção de código/dados
+│   └── ACORDO_DE_SOCIOS.md             # Acordo dos 4 sócios (Vesting, Voto de Minerva, Deadlock)
 ├── 02_comercial_marketing/
-│   ├── PROPOSTA_COMERCIAL_EXECUTIVA.md # Proposta oficial para envio aos clientes (PDF/MD)
+│   ├── PROPOSTA_COMERCIAL_EXECUTIVA.md # Proposta oficial com pacotes de R$ 3,8k a R$ 8,5k
 │   └── SCRIPTS_PROSPECCAO_OUTBOUND.md  # Scripts de WhatsApp, LinkedIn e abordagem de agências
 ├── 03_social_media/
 │   └── PLAYBOOK_LINKEDIN_AUTORIDADE.md # Estratégia editorial e templates de posts técnicos
 ├── 04_rh/
 │   └── AVALIACAO_TECNICA_DEV.md        # Desafio prático para estagiários/suporte (Java/Angular/SQL)
 └── 05_administracao/
-    └── MATRIZ_SEVERIDADE_E_SLA.md      # Protocolo de atendimento P1/P2/P3 e gestão de chamados
+    ├── MATRIZ_SEVERIDADE_E_SLA.md      # Protocolo de atendimento P1/P2/P3 e gestão de chamados
+    └── PLANEJAMENTO_TRIBUTARIO_E_FINANCEIRO.md # Manual CFO: Simples Nacional a 6%, Fator R e Reservas
 ```
 
 ---

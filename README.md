@@ -19,17 +19,19 @@ Este repositório fornece a esteira completa para operar uma empresa de desenvol
 ```
 operacoes/
 ├── 01_juridico/
-│   ├── CONTRATO_SUSTENTACAO_E_SLA.md   # Contrato de manutenção, banco de horas e SLA
-│   └── ACORDO_CONFIDENCIALIDADE_NDA.md # NDA bilateral com conformidade LGPD
+│   ├── CONTRATO_SUSTENTACAO_E_SLA.md   # Contrato com Damage Cap e limitação de responsabilidade
+│   ├── ACORDO_CONFIDENCIALIDADE_NDA.md # NDA bilateral com conformidade LGPD
+│   └── ACORDO_DE_SOCIOS.md             # Acordo de sócios: Vesting de 4 anos, Cliff e Voto de Minerva
 ├── 02_comercial_marketing/
-│   ├── PROPOSTA_COMERCIAL_EXECUTIVA.md # Proposta de alto valor (MRR + Discovery + Sprints)
+│   ├── PROPOSTA_COMERCIAL_EXECUTIVA.md # Proposta de alto valor (Piso R$ 3.800 a R$ 8.500/mês)
 │   └── SCRIPTS_PROSPECCAO_OUTBOUND.md  # 5 scripts de abordagem (WhatsApp, LinkedIn, Agências)
 ├── 03_social_media/
 │   └── PLAYBOOK_LINKEDIN_AUTORIDADE.md # Framework Dev-to-Founder para atração B2B
 ├── 04_rh/
 │   └── AVALIACAO_TECNICA_DEV.md        # Desafio de código real para suporte/devs (Java/Angular/SQL)
 └── 05_administracao/
-    └── MATRIZ_SEVERIDADE_E_SLA.md      # Gestão de incidentes P1 a P4 e fluxo de suporte
+    ├── MATRIZ_SEVERIDADE_E_SLA.md      # Gestão de incidentes P1 a P4 e fluxo de suporte
+    └── PLANEJAMENTO_TRIBUTARIO_E_FINANCEIRO.md # Engenharia tributária do Fator R (Simples Nacional a 6%)
 ```
 
 ---
