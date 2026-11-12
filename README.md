@@ -52,7 +52,7 @@ Este repositório fornece a esteira completa para operar uma empresa de desenvol
 | :--- | :--- | :---: |
 | **Thiago Duarte** | Sócio Engenheiro de Software (Operações & Gestão Administrativa) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Thiago_Duarte-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/thiago-duarte-a6597721/) |
 | **Diego Alves** | Sócio Engenheiro de Software & Arquiteto Principal *(Casting Vote)* | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Diego_Alves-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/by-diegoalves/) |
-| **Márcio Alves** | Sócio Engenheiro de Software & Tech Lead | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Márcio_Alves-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/m%C3%A1rcio-andrade-463590125/) |
+| **Márcio Andrade Alves** | Sócio Engenheiro de Software & Tech Lead | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Márcio_Alves-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/m%C3%A1rcio-andrade-463590125/) |
 | **Yuri Alves** | Sócio Engenheiro de Software & Solutions Ops | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yuri_Alves-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/yurileader/) |
 
 ---

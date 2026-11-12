@@ -78,3 +78,18 @@ Este guia orienta a estratégia de conteúdo no LinkedIn para os sócios. O obje
 > Esse é o futuro da engenharia de software sustentável.
 > 
 > #InteligenciaArtificial #AI #SoftwareBoutique #Produtividade
+
+---
+
+## 4. O "Squad de Autoridade" nos 4 Perfis do LinkedIn
+
+Para maximizar o alcance da empresa sem parecer spam corporativo, os 4 sócios dividem os ângulos editoriais no LinkedIn:
+
+| Sócio Fundador | Perfil Oficial | Linha Editorial Estratégica (O que Postar) |
+| :--- | :---: | :--- |
+| **Thiago Duarte** | [thiago-duarte](https://www.linkedin.com/in/thiago-duarte-a6597721/) | **Foco em Negócios, Gestão e Risco:** Posts sobre o custo oculto de sistemas travando, governança de TI em PMEs, ROI de sustentação e como escolher fornecedores de software sérios no Brasil. |
+| **Diego Alves** | [by-diegoalves](https://www.linkedin.com/in/by-diegoalves/) | **Foco em Arquitetura Enterprise e IA:** Análises profundas de arquitetura (Java corporativo, AWS, Keycloak/SSO, observabilidade), integração de LLMs e agentes no mundo real sem hype. |
+| **Márcio Andrade Alves** | [marcio-andrade](https://www.linkedin.com/in/m%C3%A1rcio-andrade-463590125/) | **Foco em Engenharia e Qualidade de Código:** Boas práticas de desenvolvimento, refatoração de código legado, testes automatizados, CI/CD, Angular moderno e Spring Boot. |
+| **Yuri Alves** | [yurileader](https://www.linkedin.com/in/yurileader/) | **Foco em Solutions Engineering e Tech Ops:** Integrações de sistemas e APIs, resolução de incidentes críticos, automações operacionais e gestão de SLA sem atrito. |
+
+> *A regra do Squad:* Quando um dos sócios publicar um post técnico ou comercial, os outros 3 comentam e interagem nas primeiras 2 horas, impulsionando o algoritmo do LinkedIn para alcançar mais diretores e decisores de tecnologia.
