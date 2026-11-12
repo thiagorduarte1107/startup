@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.jpeg" alt="Identidade Visual Oficial" width="220" />
+</p>
+
 # Kit Software House Brasil 🇧🇷
 ### Framework Operacional, Jurídico e Comercial para Boutiques de Software e Sustentação de Sistemas
 
