@@ -1,0 +1,17 @@
+# Arquivos pessoais / históricos locais
+EmpresaTI.zip
+EmpresaTI/
+scratch/
+*.log
+
+# Sistema operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
